@@ -147,14 +147,14 @@ Clustered spatial map showing distinct niches:
 Once you generate these panels in the notebook, save them into figures/ with the above filenames so the README renders them automatically.
 
 ## 7. How to Run
-Clone/download this repository.
-Place your Space Ranger-derived Zarr folders (e.g. Colon_Cancer_P1, etc.) in the project directory.
-Create and activate a Python environment with required packages.
-Open the notebook:
-jupyter lab VisiumHD_python_analysis.ipynb
-Run cells sequentially:
-Inspect Space Ranger outputs & tissue detection
-Load Zarr → build SpatialData
-Perform QC, normalization, clustering
-Run marker discovery & export results
-Save figures into figures/ for README visualization
+- Clone/download this repository.
+- Place your Space Ranger-derived Zarr folders (e.g. Colon_Cancer_P1, etc.) in the project directory.
+- Create and activate a Python environment with required packages.
+- Open the notebook:
+- jupyter lab VisiumHD_python_analysis.ipynb
+- Run cells sequentially:
+- Inspect Space Ranger outputs & tissue detection
+- Load Zarr → build SpatialData
+- Perform QC, normalization, clustering
+- Run marker discovery & export results
+- Save figures into figures/ for README visualization
