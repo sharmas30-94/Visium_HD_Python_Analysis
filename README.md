@@ -1,6 +1,8 @@
 # Visium HD Colon Cancer Spatial Transcriptomics Analysis
 This repository contains a complete Visium HD spatial transcriptomics workflow in Python, applied to colon cancer and matched normal tissues. It starts from Space Ranger outputs, converts them into a unified SpatialData object, performs quality control, normalization, dimensionality reduction, clustering, batch correction, and marker gene discovery, and generates interpretable spatial visualizations.
 
+The datasets used in this Analysis Guide are publicly available from 10x Genomics:
+https://www.google.com/url?q=https%3A%2F%2Fwww.10xgenomics.com%2Fproducts%2Fvisium-hd-spatial-gene-expression%2Fdataset-human-crc
 ## 1. Project Overview
 This notebook demonstrates how to:
 - Ingest 10x Genomics Visium HD outputs (Space Ranger).
